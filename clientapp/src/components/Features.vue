@@ -35,7 +35,8 @@ const features = [
         text: 'Explore scenic trails and open landscapes, perfect for equestrian enthusiasts of all levels.',
         to: '/',
         icon: 'mdi-horse',
-        enabled: true
+        enabled: true,
+        href: ''
     },
     {
         title: 'Elaborate Scenery',
@@ -43,7 +44,8 @@ const features = [
         text: 'Immerse yourself in stunning natural surroundings, from lush gardens to serene wooded areas.',
         to: '/',
         icon: 'mdi-forest',
-        enabled: true
+        enabled: true,
+        href: ''
     },
     {
         title: 'Complete Privacy',
@@ -51,7 +53,8 @@ const features = [
         text: 'Enjoy seclusion and tranquility with spacious estate-sized lots designed for ultimate privacy.',
         to: '/',
         icon: 'mdi-eye-off',
-        enabled: true
+        enabled: true,
+        href: ''
     }
 ];
 </script>
