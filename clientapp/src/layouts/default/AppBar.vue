@@ -8,7 +8,7 @@
       fixed
     >
       <template #prepend>
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon v-if="false" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       </template>
       <v-app-bar-title>
         <span v-if="!$vuetify.display.mobile" class="text-uppercase">

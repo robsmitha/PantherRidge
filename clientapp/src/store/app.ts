@@ -46,12 +46,12 @@ export const useAppStore = defineStore('app', {
 const defaultState: State = {
   pages: [
     {
-      content: '\n<p>Panther Ridge, located in East Manatee County, blends country charm with estate-style living. Its expansive, natural landscape captures the essence of "old Florida," offering residents ample space for horseback riding, lush gardens, and ultimate privacy. Single-family homes are set on generous lots ranging from five to twenty acres, featuring diverse architectural styles, from classic Southern estates and contemporary Florida homes to elegant modern country mansions. Each residence enhances the beauty of this thoughtfully designed equestrian community.</p>\n',
-      title: 'Florida Country Living in East Manatee County',
+      content: '\n<p>Panther Ridge, located in East Manatee County, blends country charm with estate-style living. Its expansive, natural landscape captures the essence of "old Florida," offering residents ample space for horseback riding, lush gardens, and ultimate privacy.</p><br><br><p> Single-family homes are set on generous lots ranging from five to twenty acres, featuring diverse architectural styles, from classic Southern estates and contemporary Florida homes to elegant modern country mansions. Each residence enhances the beauty of this thoughtfully designed equestrian community.</p>\n',
+      title: 'Old Florida',
       slug: 'geeks-closet-home-page'
     },
     {
-      content: '\n<h4 class="wp-block-heading"><strong>Address</strong></h4>\n\n\n<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>\n\n\n<p>6418 209th ST E, Bradenton FL 34211</p>\n\n\n\n',
+      content: '\n<h4 class="wp-block-heading"><strong>Lots for sale</strong></h4>\n\n\n<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>\n\n\n<a href="https://g.co/kgs/kD4X6zK" target="_blank">6418 209th ST E, Bradenton FL 34211</a>\n\n\n\n',
       title: 'Panther Ridge About',
       slug: 'geeks-closet-about-page'
     },
